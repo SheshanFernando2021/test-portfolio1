@@ -4,7 +4,7 @@ import AnimationLaptop from '../../assets/laptop-cup.json';
 const Hero = () => {
   return (
     <div>
-      <h1>hello</h1>
+      <h2>Hello</h2>
       <div>
         <Lottie
           animationData={AnimationLaptop}

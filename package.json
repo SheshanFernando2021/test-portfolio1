@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.20",
     "lottie-react": "^2.4.0",
     "lottie-web": "^5.12.2",
+    "postcss": "^8.4.41",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-lottie": "^1.2.4"
@@ -26,6 +28,7 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
+    "tailwindcss": "^3.4.10",
     "vite": "^5.4.1"
   }
 }
