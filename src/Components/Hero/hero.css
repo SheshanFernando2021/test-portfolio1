@@ -14,9 +14,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: end;
+  align-items: start;
   min-width: 50%;
   min-height: 100svh;
+  position: relative;
+  left: 10%;
 }
 .hero-right h1 {
   font-family: 'Fira Code';
@@ -52,4 +54,11 @@ hr {
   border: 1px solid white;
   width: 400px;
   margin: 20px 0;
+}
+.typer-effect {
+  display: flex;
+  align-items: center;
+}
+.typer-effect p {
+  line-height: 2.5;
 }
