@@ -5,7 +5,6 @@ import stack from '../../assets/stack5.png';
 import TypingEffect from 'react-typing-effect';
 import Navbar from '../Navbar/Navbar';
 import './hero.css';
-
 const Hero = () => {
   return (
     <>

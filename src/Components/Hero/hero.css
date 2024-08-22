@@ -19,6 +19,7 @@
   min-height: 100svh;
   position: relative;
   left: 10%;
+  margin-top: 20px;
 }
 .hero-right h1 {
   font-family: 'Fira Code';
@@ -37,6 +38,7 @@
   align-items: center;
   min-width: 50%;
   min-height: 100svh;
+  margin-top: 20px;
 }
 .hero-span {
   display: flex;
