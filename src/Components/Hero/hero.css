@@ -26,6 +26,8 @@
   font-family: 'Open Sans';
   font-size: 1.1rem;
   margin-top: 1rem;
+  position: relative;
+  left: '5%';
 }
 .hero-left {
   display: flex;
