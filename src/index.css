@@ -1,4 +1,9 @@
 body {
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+  background: url('./assets/background.png');
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  background-attachment: fixed;
 }
