@@ -62,3 +62,14 @@ hr {
 .typer-effect p {
   line-height: 2.5;
 }
+.hero-left p {
+  position: absolute;
+  bottom: 180px;
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  white-space: nowrap;
+  right: -610px;
+  word-spacing: 2;
+  letter-spacing: 1px;
+  color: rgba(100, 148, 237, 0.662);
+}
