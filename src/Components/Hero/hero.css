@@ -6,7 +6,7 @@
   display: flex;
   min-width: 100%;
   min-height: 100svh;
-  background: url('../../assets/2149279138.jpg');
+  background: url('../../assets/background.png');
   background-position: center;
   background-size: cover;
 }
