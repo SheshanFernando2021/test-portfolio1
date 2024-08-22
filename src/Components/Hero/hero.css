@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .hero-container {
   display: flex;
   min-width: 100%;
@@ -9,6 +10,7 @@
   background: url('../../assets/background.png');
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .hero-right {
   display: flex;
@@ -46,7 +48,8 @@
   gap: 30px;
 }
 .hero-span img {
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
 }
 .hero-span h4 {
   font-family: 'Fira Code';
@@ -74,4 +77,30 @@ hr {
   word-spacing: 2;
   letter-spacing: 1px;
   color: rgba(100, 148, 237, 0.662);
+}
+
+@media screen and (max-width: 1466px) {
+  .hero-container {
+    flex-direction: column;
+  }
+  .hero-left p {
+    display: none;
+  }
+  .hero-right {
+    width: 100%; /* Ensure it takes full width */
+    margin: 0 auto; /* Center horizontally */
+    padding: 0; /* Remove any padding */
+    left: 0; /* Reset any left positioning */
+    align-items: center;
+  }
+
+  .hero-right p {
+    font-family: 'Open Sans';
+    font-size: 1.1rem;
+  }
+  .hero-span img {
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+  }
 }
