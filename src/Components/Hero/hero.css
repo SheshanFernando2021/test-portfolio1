@@ -1,13 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .hero-container {
   display: flex;
   min-width: 100%;
   min-height: 100svh;
+  background: url('../../assets/2149279138.jpg');
+  background-position: center;
+  background-size: cover;
 }
 .hero-right {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   min-width: 50%;
   min-height: 100svh;
 }
@@ -17,7 +24,7 @@
 }
 .hero-right p {
   font-family: 'Open Sans';
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-top: 1rem;
 }
 .hero-left {
@@ -38,4 +45,9 @@
 .hero-span h4 {
   font-family: 'Fira Code';
   font-size: 1.2rem;
+}
+hr {
+  border: 1px solid white;
+  width: 400px;
+  margin: 20px 0;
 }
