@@ -21,6 +21,14 @@
   border: 1px solid white;
   padding: 15px;
   border-radius: 500px;
+  background-color: rgba(
+    240,
+    248,
+    255,
+    0.1
+  ); /* Semi-transparent background (AliceBlue) */
+  backdrop-filter: blur(8px); /* Apply a blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Support for Safari */
 }
 .navbar-container ul li {
   transition: ease-in-out 0.3s;
@@ -28,7 +36,7 @@
 .navbar-container ul li:hover {
   transform: scale(1.1);
   color: rgb(225, 255, 0);
-  cursor: pointer;
+  /* cursor: pointer; */
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
