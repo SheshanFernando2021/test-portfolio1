@@ -69,7 +69,7 @@ hr {
 }
 .hero-left p {
   position: absolute;
-  bottom: 180px;
+  bottom: 100px;
   transform: rotate(-90deg);
   transform-origin: bottom left;
   white-space: nowrap;

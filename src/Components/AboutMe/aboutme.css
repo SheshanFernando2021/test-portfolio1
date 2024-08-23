@@ -3,69 +3,72 @@
   min-height: 100vh;
   width: 100%;
 }
-.aboutme-leftside {
-  width: 50%;
-  border: 1px solid white;
+
+*>.aboutme-container {
+  font-family: 'Fira Code';
+  word-spacing: 2px;
+  line-height: 1.4;
 }
+
+.aboutme-leftside {
+  width: 60%;
+  margin-top: -40px;
+
+}
+
 .aboutme-righttside {
-  width: 50%;
-  border: 1px solid white;
 }
 
 .Aboutme {
   margin-top: 120px;
-  border: 1px white solid;
   padding: 5px;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
   width: 50%;
 }
 .description {
-  border: 1px white solid;
+  background: rgba(255, 255, 255, 0.2); /* More transparency */
+  backdrop-filter: blur(15px) saturate(150%); /* Stronger blur and slight color saturation */
+  -webkit-backdrop-filter: blur(15px) saturate(150%); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border to define edges */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* More pronounced shadow for depth */
   height: 60%;
-  width: 100%;
-  margin-top: 20px;
-  /* template */
-  background-color: bisque;
-  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 25px;
+  margin-bottom: 20px;
+}
+
+
+.buttons-container{
+  text-align: center;
 }
 .buttons {
-  border: 1px white solid;
-  height: 15%;
-  width: 100%;
   margin-top: 20px;
+  height: 5%;
+  width: 100%;
+  gap: 20px;
 
   /* template */
-  background-color: bisque;
-  color: black;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
+
 .aboutme-righttside {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Horizontal centering */
-  height: 100vh; /* Ensure it occupies full viewport height */
-  width: 100%; /* Ensure it occupies full width of the parent */
+  align-items: center;
+  /* Horizontal centering */
+  height: 100vh;
+  /* Ensure it occupies full viewport height */
+  width: 100%;
+  /* Ensure it occupies full width of the parent */
 }
 
-.animation {
-  border: 1px white solid;
-  height: 35%;
-  width: 40%;
-  border-radius: 200px;
-  background-color: bisque;
-  color: black;
-  margin-top: 0; /* Remove or adjust margin */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .skills {
   border: 1px white solid;
   height: 35%;
@@ -73,8 +76,6 @@
   width: 100%;
 
   /* template */
-  background-color: bisque;
-  color: black;
   display: flex;
   display: flex;
   justify-content: center;
