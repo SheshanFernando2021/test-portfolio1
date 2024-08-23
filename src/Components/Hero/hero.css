@@ -5,7 +5,7 @@
 .hero-container {
   display: flex;
   min-width: 100%;
-  min-height: 100svh;
+  max-height: 100vh;
 }
 .hero-right {
   display: flex;

@@ -1,3 +1,82 @@
 .aboutme-container {
-  min-height: 100svh;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+.aboutme-leftside {
+  width: 50%;
+  border: 1px solid white;
+}
+.aboutme-righttside {
+  width: 50%;
+  border: 1px solid white;
+}
+
+.Aboutme {
+  margin-top: 120px;
+  border: 1px white solid;
+  padding: 5px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  width: 50%;
+}
+.description {
+  border: 1px white solid;
+  height: 60%;
+  width: 100%;
+  margin-top: 20px;
+  /* template */
+  background-color: bisque;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  border: 1px white solid;
+  height: 15%;
+  width: 100%;
+  margin-top: 20px;
+
+  /* template */
+  background-color: bisque;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme-righttside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Horizontal centering */
+  height: 100vh; /* Ensure it occupies full viewport height */
+  width: 100%; /* Ensure it occupies full width of the parent */
+}
+
+.animation {
+  border: 1px white solid;
+  height: 35%;
+  width: 40%;
+  border-radius: 200px;
+  background-color: bisque;
+  color: black;
+  margin-top: 0; /* Remove or adjust margin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills {
+  border: 1px white solid;
+  height: 35%;
+  margin-top: 20px;
+  width: 100%;
+
+  /* template */
+  background-color: bisque;
+  color: black;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
