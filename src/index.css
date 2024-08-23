@@ -7,3 +7,15 @@ body {
   background-color: black;
   background-attachment: fixed;
 }
+/* For Chrome, Safari, and other WebKit-based browsers */
+::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+/* General rule to enable scrolling */
+body {
+  overflow: hidden; /* Hide both horizontal and vertical scrollbars */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  overflow-x: scroll; /* Enable horizontal scrolling if needed */
+  cursor: url('./assets/pointer3.png'), default;
+}
