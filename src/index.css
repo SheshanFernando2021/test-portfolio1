@@ -6,6 +6,8 @@ body {
   background-size: cover;
   background-color: black;
   background-attachment: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 /* For Chrome, Safari, and other WebKit-based browsers */
 ::-webkit-scrollbar {
