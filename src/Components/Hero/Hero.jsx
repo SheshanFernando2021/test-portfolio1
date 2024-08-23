@@ -18,6 +18,7 @@ const Hero = () => {
               Hey there, I'm Sheshan Fernando. I'm 24 and specialize in &nbsp;
             </p>
             <TypingEffect
+              className="TypingEffect"
               text="front-end development."
               speed={100}
               eraseSpeed={300}
