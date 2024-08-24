@@ -1,6 +1,3 @@
-.mobileVersion{
-  display: none;
-}
 .navbar-container {
   display: flex;
   text-align: center;
@@ -12,7 +9,9 @@
   right: 0;
   z-index: 10;
 }
-.navbar-container .desktopVersion {
+
+/* Desktop Navigation */
+.desktopVersion {
   display: flex;
   flex-wrap: wrap;
   gap: 4rem;
@@ -24,33 +23,91 @@
   border: 1px solid white;
   padding: 15px;
   border-radius: 500px;
-  background-color: rgba(
-    240,
-    248,
-    255,
-    0.1
-  );
-  backdrop-filter: blur(8px); 
-  -webkit-backdrop-filter: blur(10px); 
+  background-color: rgba(240, 248, 255, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(10px);
 }
-.navbar-container .desktopVersion li {
+
+.desktopVersion li {
   transition: ease-in-out 0.3s;
 }
-a{
+
+a {
   text-decoration: none;
   color: aliceblue;
 }
-.navbar-container .desktopVersion li:hover ,a:hover {
+
+.desktopVersion li:hover,
+a:hover {
   transform: scale(1.1);
   color: rgb(225, 255, 0);
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
+/* Mobile Navigation */
+.mobileVersion {
+  display: none; 
+  position: fixed; 
+  top: 1rem;
+  right: 1rem; 
+  z-index: 11;
+}
+
+.mobileVersion img {
+  cursor: pointer;
+  width: 24px; 
+  height: auto;
+}
+
+.menuList {
+  display: none; 
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: rgba(240, 248, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  position: fixed; 
+  top: 4rem;
+  right: 1rem; 
+  z-index: 10; 
+}
+
+.menuList.show {
+  display: flex; 
+}
+
+.menuList li {
+  margin: 10px 0;
+  font-family: 'Fira Code';
+  font-size: 1.2rem;
+}
+
+.menuList li a {
+  color: aliceblue;
+}
+
+.menuList li a:hover {
+  color: rgb(225, 255, 0);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+/* Responsive Design */
 @media screen and (max-width: 1466px) {
-  .navbar-container .desktopVersion {
+  .desktopVersion {
     display: none;
   }
-  .navbar-container .mobileVersion{
+
+  .mobileVersion {
     display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menuList {
+    display: none; 
   }
 }

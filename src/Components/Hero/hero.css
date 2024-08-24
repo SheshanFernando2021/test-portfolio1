@@ -173,10 +173,11 @@ hr {
 }
 @media screen and (max-height: 800px){
   .hero-left {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .hero-right {
-    width: 100%;
     margin: 0 auto;
     padding: 0;
     left: 0;
