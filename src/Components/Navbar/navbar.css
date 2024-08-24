@@ -46,21 +46,21 @@ a:hover {
 
 /* Mobile Navigation */
 .mobileVersion {
-  display: none; 
-  position: fixed; 
+  display: none;
+  position: fixed;
   top: 1rem;
-  right: 1rem; 
+  right: 1rem;
   z-index: 11;
 }
 
 .mobileVersion img {
   cursor: pointer;
-  width: 24px; 
+  width: 24px;
   height: auto;
 }
 
 .menuList {
-  display: none; 
+  display: none;
   flex-direction: column;
   padding: 0;
   margin: 0;
@@ -69,14 +69,14 @@ a:hover {
   border-radius: 10px;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  position: fixed; 
+  position: fixed;
   top: 4rem;
-  right: 1rem; 
-  z-index: 10; 
+  right: 1rem;
+  z-index: 10;
 }
 
 .menuList.show {
-  display: flex; 
+  display: flex;
 }
 
 .menuList li {
@@ -103,11 +103,15 @@ a:hover {
   .mobileVersion {
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 5% !important;
   }
 }
 
 @media screen and (max-width: 768px) {
   .menuList {
-    display: none; 
+    display: none;
+    position: fixed;
+
   }
 }

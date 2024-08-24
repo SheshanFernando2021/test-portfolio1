@@ -38,6 +38,7 @@ const Hero = () => {
         </div>
         <div className="hero-left">
           <Lottie
+            className='laptopanimation'
             animationData={AnimationLaptop}
             loop={true}
             autoplay={true}
