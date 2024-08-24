@@ -38,7 +38,16 @@ const Aboutme = () => {
         <div className="AboutMeMobile">
           <h1>About Me</h1>
           <Lottie options={defaultOptions} height={300} width={300} className="lootieaboutmeMobile" id="aboutme" />
-
+          <h3>Downloads</h3>
+          <div className="buttonsMobile">
+            <a href={DummyCL} download="Sheshan_ferando_CL.pdf">    <button>Cover Letter</button>
+            </a>
+            <a href={DummyCV} download="Sheshan_ferando_CV.pdf">            <button>CV</button>
+            </a>
+          </div>
+          <p>
+            I'm Sheshan Fernando, a front-end developer with over two years of experience in creating dynamic web applications. Originally from Sri Lanka and now based in Italy, I'm 24 and pursuing a Bachelor's in Artificial Intelligence at the University of Pavia. I specialize in modern tech like JavaScript, React.js, WordPress, and more. My freelancing journey has sharpened my skills, and I'm eager to contribute to a collaborative team in a permanent role. I'm passionate about crafting responsive, user-centric web experiences. Let's connect and explore how I can add value to your team!
+          </p>
         </div>
 
       </div>

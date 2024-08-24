@@ -65,7 +65,6 @@
   color: #ffffff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   font-family: 'Fira Code', monospace;
-  cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -88,10 +87,48 @@
   }
 
   .AboutMeMobile {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
+  }
+
+  .AboutMeMobile p {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px) saturate(150%);
+    -webkit-backdrop-filter: blur(15px) saturate(150%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .buttonsMobile {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .buttonsMobile button {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Fira Code', monospace;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid white;
+  }
+
+  .AboutMeMobile h1 {
+    text-shadow: 1.5px 1.7px 4px black;
   }
 }
 
