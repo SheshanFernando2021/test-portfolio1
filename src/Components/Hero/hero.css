@@ -6,7 +6,7 @@
 .hero-container {
   display: flex;
   min-width: 100%;
-  max-height: 80vh;
+  min-height: 100svh;
   background: url('../../assets/background.png');
   background-position: center;
   background-size: cover;
@@ -28,6 +28,10 @@
 .hero-right h1 {
   font-family: 'Fira Code';
   font-size: 2.5rem;
+}
+
+.animMobileHero {
+  display: none;
 }
 
 .hero-right p {
@@ -91,6 +95,14 @@ hr {
 }
 
 @media screen and (max-width: 1466px) {
+  .hero-left {
+    display: none;
+  }
+
+  .animMobileHero {
+    display: block;
+  }
+
   .hero-container {
     display: flex;
     flex-direction: column;
@@ -100,12 +112,10 @@ hr {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    padding-top: -40%;
   }
-
-  .laptopanimation {
-    margin-top: -20%;
-  }
-
 
   .hero-left p {
     display: none;
@@ -204,13 +214,10 @@ hr {
 }
 
 @media screen and (max-height: 800px) {
-  .hero-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
 
   .hero-right {
+    width: 100%;
     margin: 0 auto;
     padding: 0;
     left: 0;
