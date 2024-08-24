@@ -26,9 +26,9 @@
     248,
     255,
     0.1
-  ); /* Semi-transparent background (AliceBlue) */
-  backdrop-filter: blur(8px); /* Apply a blur effect */
-  -webkit-backdrop-filter: blur(10px); /* Support for Safari */
+  );
+  backdrop-filter: blur(8px); 
+  -webkit-backdrop-filter: blur(10px); 
 }
 .navbar-container ul li {
   transition: ease-in-out 0.3s;
@@ -40,7 +40,6 @@ a{
 .navbar-container ul li:hover ,a:hover {
   transform: scale(1.1);
   color: rgb(225, 255, 0);
-  /* cursor: pointer; */
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
