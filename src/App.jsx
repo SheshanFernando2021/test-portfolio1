@@ -1,11 +1,13 @@
-import { useState } from 'react';
+import React from 'react';
+import './App.css';
+import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import Aboutme from './Components/AboutMe/Aboutme';
-import './App.css';
 
 function App() {
   return (
     <>
+      <Navbar />
       <Hero />
       <Aboutme />
     </>

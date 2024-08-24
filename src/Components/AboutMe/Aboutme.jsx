@@ -2,6 +2,8 @@ import React from 'react';
 import Lottie from 'react-lottie';
 import './aboutme.css';
 import AnimationCoder from '../../assets/AnimationAbboutMe.json';
+import DummyCL from '../../assets/coverletterDummy.pdf';
+import DummyCV from '../../assets/CVdummy.pdf'
 
 const Aboutme = () => {
   const defaultOptions = {
@@ -14,12 +16,12 @@ const Aboutme = () => {
   };
 
   return (
-    <div className="aboutme-container">
+    <div className="aboutme-container" id="aboutme">
       <div className="aboutme-leftside">
         <Lottie options={defaultOptions} height={500} width={500} className="lootieaboutme" />
         <h3>Downloads</h3>
-        <div className="buttonContainer"> <button>Cover Letter</button>
-          <button>CV</button></div>
+        <div className="buttonContainer"><a href={DummyCL} download="Sheshan_ferando_CL.pdf"><button>Cover Letter</button></a> 
+         <a href={DummyCV} download="Sheshan_ferando_CV.pdf"><button>CV</button></a> </div>
 
       </div>
       <div className="aboutme-rightside">

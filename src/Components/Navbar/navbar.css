@@ -33,7 +33,11 @@
 .navbar-container ul li {
   transition: ease-in-out 0.3s;
 }
-.navbar-container ul li:hover {
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.navbar-container ul li:hover ,a:hover {
   transform: scale(1.1);
   color: rgb(225, 255, 0);
   /* cursor: pointer; */
