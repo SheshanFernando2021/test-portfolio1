@@ -171,3 +171,15 @@ hr {
     align-items: center;
   }
 }
+@media screen and (max-height: 800px){
+  .hero-left {
+    display: none;
+  }
+  .hero-right {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    left: 0;
+    align-items: center;
+  }
+}
