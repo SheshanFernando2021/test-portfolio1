@@ -20,8 +20,8 @@ const Aboutme = () => {
       <div className="aboutme-leftside">
         <Lottie options={defaultOptions} height={500} width={500} className="lootieaboutme" />
         <h3>Downloads</h3>
-        <div className="buttonContainer"><a href={DummyCL} download="Sheshan_ferando_CL.pdf"><button>Cover Letter</button></a> 
-         <a href={DummyCV} download="Sheshan_ferando_CV.pdf"><button>CV</button></a> </div>
+        <div className="buttonContainer"><a href={DummyCL} download="Sheshan_ferando_CL.pdf"><button>Cover Letter</button></a>
+          <a href={DummyCV} download="Sheshan_ferando_CV.pdf"><button>CV</button></a> </div>
 
       </div>
       <div className="aboutme-rightside">
@@ -40,7 +40,16 @@ const Aboutme = () => {
             <button>CV</button>
           </div>
         </div> */}
+
       </div>
+      {/* <div className='mobileVersion'>
+        <div className="animation">
+          <Lottie options={defaultOptions} height={500} width={500} className="animationMobile" />
+          <h3>Downloads</h3>
+          <div className="buttonCotainerMobile"><a href={DummyCL} download="Sheshan_ferando_CL.pdf"><button>Cover Letter</button></a>
+            <a href={DummyCV} download="Sheshan_ferando_CV.pdf"><button>CV</button></a> </div>
+        </div>
+      </div> */}
     </div>
   );
 };

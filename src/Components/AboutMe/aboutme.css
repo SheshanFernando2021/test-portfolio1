@@ -70,3 +70,28 @@ margin-left: 38%;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   cursor:pointer;
 }
+
+/* Mobile version  */
+/* Mobile version  */
+/* 
+@media screen and (max-width: 1000px) {
+  .aboutme-leftside{
+    display: none;
+  }
+  .aboutme-rightside{
+    display: none;
+  }
+  .aboutme-container{
+    flex-direction: column;
+    height: auto;
+  .mobileVersion{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto; 
+  }
+  .mobileVersion .animation {
+    position: relative;
+    width: 100%;
+  }
+} */
