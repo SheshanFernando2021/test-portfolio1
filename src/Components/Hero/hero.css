@@ -94,10 +94,12 @@ hr {
   color: rgba(100, 148, 237, 0.662);
 }
 
-@media screen and (max-width: 1466px) {
+@media screen and (max-width: 1200px) {
   .hero-left {
     display: none;
   }
+
+
 
   .animMobileHero {
     display: block;
@@ -156,6 +158,18 @@ hr {
     border: 1px solid white;
     width: 100px;
     margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 1466px) {
+  .typer-effect {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-span {
+    display: flex;
+    flex-direction: column;
   }
 }
 
